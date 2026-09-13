@@ -1,0 +1,1 @@
+ENV_PATH = r"C:\Users\Rano's PC\Machine\github_repo_cloned\india-logistics-hub-optimizer\.env"
