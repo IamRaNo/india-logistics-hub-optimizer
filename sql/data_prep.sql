@@ -25,7 +25,6 @@ select
     round(inter_in_asset_val,2) as inter_in_assets
 from way_bill_data;
 
-
 -- Clean New Table For gsdp_data
 create table gsdp as
 select 
@@ -55,6 +54,7 @@ select
 from population_data;
 
 
+SELECT * from bills where `month` = 3 and `year` = 2025;
 
 
 select * from bills;
