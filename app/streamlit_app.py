@@ -75,6 +75,7 @@ with st.sidebar:
 
 st.header("Demand Forecasting")
 st.caption("Monthly demand outlook for India logistics planning · 12-month horizon")
+st.info("💡 **Note:** Forecasting takes time for the first time only, for each Volume and Amount.")
 
 if run_forecast:
     # Data and fitted models are cached, so changing only the scope is quick.
