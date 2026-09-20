@@ -19,10 +19,10 @@ andaman and nicobar,2019-11-01,9543.0
 andaman and nicobar,2019-12-01,9304.0
 andaman and nicobar,2020-01-01,9432.0
 andaman and nicobar,2020-02-01,9131.0
-andaman and nicobar,2020-03-01,6304.0
-andaman and nicobar,2020-04-01,1437.0
-andaman and nicobar,2020-05-01,3366.0
-andaman and nicobar,2020-06-01,6991.0
+andaman and nicobar,2020-03-01,9097.8
+andaman and nicobar,2020-04-01,9064.6
+andaman and nicobar,2020-05-01,9031.4
+andaman and nicobar,2020-06-01,8998.2
 andaman and nicobar,2020-07-01,8965.0
 andaman and nicobar,2020-08-01,5059.0
 andaman and nicobar,2020-09-01,8106.0
@@ -116,10 +116,10 @@ andhra pradesh,2019-11-01,2385204.0
 andhra pradesh,2019-12-01,2637210.0
 andhra pradesh,2020-01-01,2406170.0
 andhra pradesh,2020-02-01,2456179.0
-andhra pradesh,2020-03-01,1839777.0
-andhra pradesh,2020-04-01,555947.0
-andhra pradesh,2020-05-01,1352175.0
-andhra pradesh,2020-06-01,2065839.0
+andhra pradesh,2020-03-01,2393338.0
+andhra pradesh,2020-04-01,2330497.0
+andhra pradesh,2020-05-01,2267656.0
+andhra pradesh,2020-06-01,2204815.0
 andhra pradesh,2020-07-01,2141974.0
 andhra pradesh,2020-08-01,2196764.0
 andhra pradesh,2020-09-01,2482859.0
@@ -213,10 +213,10 @@ arunachal pradesh,2019-11-01,34110.0
 arunachal pradesh,2019-12-01,27394.0
 arunachal pradesh,2020-01-01,31066.0
 arunachal pradesh,2020-02-01,33163.0
-arunachal pradesh,2020-03-01,24241.0
-arunachal pradesh,2020-04-01,5650.0
-arunachal pradesh,2020-05-01,25934.0
-arunachal pradesh,2020-06-01,24961.0
+arunachal pradesh,2020-03-01,29205.2
+arunachal pradesh,2020-04-01,25247.4
+arunachal pradesh,2020-05-01,21289.6
+arunachal pradesh,2020-06-01,17331.8
 arunachal pradesh,2020-07-01,13374.0
 arunachal pradesh,2020-08-01,25632.0
 arunachal pradesh,2020-09-01,29586.0
@@ -273,6 +273,7 @@ arunachal pradesh,2024-11-01,52075.0
 arunachal pradesh,2024-12-01,55445.0
 arunachal pradesh,2025-01-01,55391.0
 arunachal pradesh,2025-02-01,54205.0
+arunachal pradesh,2025-03-01,70965.0
 arunachal pradesh,2025-04-01,65982.0
 arunachal pradesh,2025-05-01,66635.0
 arunachal pradesh,2025-06-01,61078.0
@@ -309,10 +310,10 @@ assam,2019-11-01,829840.0
 assam,2019-12-01,683359.0
 assam,2020-01-01,790252.0
 assam,2020-02-01,867822.0
-assam,2020-03-01,640619.0
-assam,2020-04-01,159094.0
-assam,2020-05-01,560120.0
-assam,2020-06-01,702746.0
+assam,2020-03-01,806833.6
+assam,2020-04-01,745845.2
+assam,2020-05-01,684856.8
+assam,2020-06-01,623868.4
 assam,2020-07-01,562880.0
 assam,2020-08-01,725277.0
 assam,2020-09-01,891098.0
@@ -406,10 +407,10 @@ bihar,2019-11-01,942411.0
 bihar,2019-12-01,988654.0
 bihar,2020-01-01,1178492.0
 bihar,2020-02-01,1167108.0
-bihar,2020-03-01,763581.0
-bihar,2020-04-01,203238.0
-bihar,2020-05-01,580541.0
-bihar,2020-06-01,975102.0
+bihar,2020-03-01,1096206.6
+bihar,2020-04-01,1025305.2
+bihar,2020-05-01,954403.8
+bihar,2020-06-01,883502.4
 bihar,2020-07-01,812601.0
 bihar,2020-08-01,935657.0
 bihar,2020-09-01,1090993.0
@@ -466,6 +467,7 @@ bihar,2024-11-01,1722927.0
 bihar,2024-12-01,1875430.0
 bihar,2025-01-01,2159150.0
 bihar,2025-02-01,2059538.0
+bihar,2025-03-01,2349845.0
 bihar,2025-04-01,2315969.0
 bihar,2025-05-01,2362771.0
 bihar,2025-06-01,2213480.0
@@ -502,10 +504,10 @@ chandigarh,2019-11-01,206888.0
 chandigarh,2019-12-01,203945.0
 chandigarh,2020-01-01,199905.0
 chandigarh,2020-02-01,208463.0
-chandigarh,2020-03-01,150664.0
-chandigarh,2020-04-01,29248.0
-chandigarh,2020-05-01,95221.0
-chandigarh,2020-06-01,162755.0
+chandigarh,2020-03-01,204174.4
+chandigarh,2020-04-01,199885.8
+chandigarh,2020-05-01,195597.2
+chandigarh,2020-06-01,191308.6
 chandigarh,2020-07-01,187020.0
 chandigarh,2020-08-01,179888.0
 chandigarh,2020-09-01,203466.0
@@ -562,6 +564,7 @@ chandigarh,2024-11-01,321962.0
 chandigarh,2024-12-01,343037.0
 chandigarh,2025-01-01,359279.0
 chandigarh,2025-02-01,340395.0
+chandigarh,2025-03-01,388006.0
 chandigarh,2025-04-01,372217.0
 chandigarh,2025-05-01,358416.0
 chandigarh,2025-06-01,346715.0
@@ -598,10 +601,10 @@ chhattisgarh,2019-11-01,657040.0
 chhattisgarh,2019-12-01,723272.0
 chhattisgarh,2020-01-01,752071.0
 chhattisgarh,2020-02-01,749313.0
-chhattisgarh,2020-03-01,504760.0
-chhattisgarh,2020-04-01,135683.0
-chhattisgarh,2020-05-01,452778.0
-chhattisgarh,2020-06-01,607324.0
+chhattisgarh,2020-03-01,724415.8
+chhattisgarh,2020-04-01,699518.6
+chhattisgarh,2020-05-01,674621.4
+chhattisgarh,2020-06-01,649724.2
 chhattisgarh,2020-07-01,624827.0
 chhattisgarh,2020-08-01,602254.0
 chhattisgarh,2020-09-01,623216.0
@@ -675,200 +678,6 @@ chhattisgarh,2026-04-01,2136768.0
 chhattisgarh,2026-05-01,2118935.0
 chhattisgarh,2026-06-01,2189787.0
 chhattisgarh,2026-07-01,2144855.0
-dadra and nagar haveli,2018-07-01,362641.0
-dadra and nagar haveli,2018-08-01,437356.0
-dadra and nagar haveli,2018-09-01,399641.0
-dadra and nagar haveli,2018-10-01,398904.0
-dadra and nagar haveli,2018-11-01,336403.0
-dadra and nagar haveli,2018-12-01,429706.0
-dadra and nagar haveli,2019-01-01,440693.0
-dadra and nagar haveli,2019-02-01,409746.0
-dadra and nagar haveli,2019-03-01,428167.0
-dadra and nagar haveli,2019-04-01,415273.0
-dadra and nagar haveli,2019-05-01,406844.0
-dadra and nagar haveli,2019-06-01,394267.0
-dadra and nagar haveli,2019-07-01,433436.0
-dadra and nagar haveli,2019-08-01,408016.0
-dadra and nagar haveli,2019-09-01,402285.0
-dadra and nagar haveli,2019-10-01,377677.0
-dadra and nagar haveli,2019-11-01,416127.0
-dadra and nagar haveli,2019-12-01,451192.0
-dadra and nagar haveli,2020-01-01,454736.0
-dadra and nagar haveli,2020-02-01,433153.0
-dadra and nagar haveli,2020-03-01,300063.0
-dadra and nagar haveli,2020-04-01,40674.0
-dadra and nagar haveli,2020-05-01,160890.0
-dadra and nagar haveli,2020-06-01,263440.0
-dadra and nagar haveli,2020-07-01,308534.0
-dadra and nagar haveli,2020-08-01,528291.0
-dadra and nagar haveli,2020-09-01,655861.0
-dadra and nagar haveli,2020-10-01,719869.0
-dadra and nagar haveli,2020-11-01,644972.0
-dadra and nagar haveli,2020-12-01,749395.0
-dadra and nagar haveli,2021-01-01,748751.0
-dadra and nagar haveli,2021-02-01,724448.0
-dadra and nagar haveli,2021-03-01,755925.0
-dadra and nagar haveli,2021-04-01,598113.0
-dadra and nagar haveli,2021-05-01,496944.0
-dadra and nagar haveli,2021-06-01,583095.0
-dadra and nagar haveli,2021-07-01,679083.0
-dadra and nagar haveli,2021-08-01,730441.0
-dadra and nagar haveli,2021-09-01,729160.0
-dadra and nagar haveli,2021-10-01,17416.0
-dadra and nagar haveli,2021-11-01,620031.0
-dadra and nagar haveli,2021-12-01,773895.0
-dadra and nagar haveli,2022-01-01,755645.0
-dadra and nagar haveli,2022-02-01,748952.0
-dadra and nagar haveli,2022-03-01,786105.0
-dadra and nagar haveli,2022-04-01,720579.0
-dadra and nagar haveli,2022-05-01,740087.0
-dadra and nagar haveli,2022-06-01,750340.0
-dadra and nagar haveli,2022-07-01,739608.0
-dadra and nagar haveli,2022-08-01,769604.0
-dadra and nagar haveli,2022-09-01,792314.0
-dadra and nagar haveli,2022-10-01,701357.0
-dadra and nagar haveli,2022-11-01,758294.0
-dadra and nagar haveli,2022-12-01,817223.0
-dadra and nagar haveli,2023-01-01,794562.0
-dadra and nagar haveli,2023-02-01,740731.0
-dadra and nagar haveli,2023-03-01,822438.0
-dadra and nagar haveli,2023-04-01,731759.0
-dadra and nagar haveli,2023-05-01,766283.0
-dadra and nagar haveli,2023-06-01,771705.0
-dadra and nagar haveli,2023-07-01,806186.0
-dadra and nagar haveli,2023-08-01,817693.0
-dadra and nagar haveli,2023-09-01,799182.0
-dadra and nagar haveli,2023-10-01,813360.0
-dadra and nagar haveli,2023-11-01,692166.0
-dadra and nagar haveli,2023-12-01,826946.0
-dadra and nagar haveli,2024-01-01,809371.0
-dadra and nagar haveli,2024-02-01,801901.0
-dadra and nagar haveli,2024-03-01,830342.0
-dadra and nagar haveli,2024-04-01,778653.0
-dadra and nagar haveli,2024-05-01,826950.0
-dadra and nagar haveli,2024-06-01,823126.0
-dadra and nagar haveli,2024-07-01,830321.0
-dadra and nagar haveli,2024-08-01,829813.0
-dadra and nagar haveli,2024-09-01,852401.0
-dadra and nagar haveli,2024-10-01,881432.0
-dadra and nagar haveli,2024-11-01,763368.0
-dadra and nagar haveli,2024-12-01,879080.0
-dadra and nagar haveli,2025-01-01,897747.0
-dadra and nagar haveli,2025-02-01,802678.0
-dadra and nagar haveli,2025-03-01,865992.0
-dadra and nagar haveli,2025-04-01,811456.0
-dadra and nagar haveli,2025-05-01,838366.0
-dadra and nagar haveli,2025-06-01,832926.0
-dadra and nagar haveli,2025-07-01,908729.0
-dadra and nagar haveli,2025-08-01,862520.0
-dadra and nagar haveli,2025-09-01,880418.0
-dadra and nagar haveli,2025-10-01,775588.0
-dadra and nagar haveli,2025-11-01,836336.0
-dadra and nagar haveli,2025-12-01,903429.0
-dadra and nagar haveli,2026-01-01,886619.0
-dadra and nagar haveli,2026-02-01,843432.0
-dadra and nagar haveli,2026-03-01,858741.0
-dadra and nagar haveli,2026-04-01,739100.0
-dadra and nagar haveli,2026-05-01,786612.0
-dadra and nagar haveli,2026-06-01,840193.0
-dadra and nagar haveli,2026-07-01,838219.0
-daman and diu,2018-07-01,250219.0
-daman and diu,2018-08-01,300304.0
-daman and diu,2018-09-01,276409.0
-daman and diu,2018-10-01,294560.0
-daman and diu,2018-11-01,245093.0
-daman and diu,2018-12-01,302691.0
-daman and diu,2019-01-01,300798.0
-daman and diu,2019-02-01,293056.0
-daman and diu,2019-03-01,305812.0
-daman and diu,2019-04-01,287495.0
-daman and diu,2019-05-01,291547.0
-daman and diu,2019-06-01,283472.0
-daman and diu,2019-07-01,308019.0
-daman and diu,2019-08-01,296708.0
-daman and diu,2019-09-01,286591.0
-daman and diu,2019-10-01,274732.0
-daman and diu,2019-11-01,292898.0
-daman and diu,2019-12-01,308771.0
-daman and diu,2020-01-01,313049.0
-daman and diu,2020-02-01,305079.0
-daman and diu,2020-03-01,215629.0
-daman and diu,2020-04-01,30757.0
-daman and diu,2020-05-01,109266.0
-daman and diu,2020-06-01,176403.0
-daman and diu,2020-07-01,207458.0
-daman and diu,2020-08-01,2900.0
-daman and diu,2020-09-01,550.0
-daman and diu,2020-10-01,348.0
-daman and diu,2020-11-01,140.0
-daman and diu,2020-12-01,167.0
-daman and diu,2021-01-01,200.0
-daman and diu,2021-02-01,174.0
-daman and diu,2021-03-01,130.0
-daman and diu,2021-04-01,103.0
-daman and diu,2021-05-01,100.0
-daman and diu,2021-06-01,78.0
-daman and diu,2021-07-01,90.0
-daman and diu,2021-08-01,106.0
-daman and diu,2021-09-01,82.0
-daman and diu,2021-10-01,22.0
-daman and diu,2021-11-01,59.0
-daman and diu,2021-12-01,109.0
-daman and diu,2022-01-01,157.0
-daman and diu,2022-02-01,60.0
-daman and diu,2022-03-01,56.0
-daman and diu,2022-04-01,61.0
-daman and diu,2022-05-01,58.0
-daman and diu,2022-06-01,80.0
-daman and diu,2022-07-01,60.0
-daman and diu,2022-08-01,52.0
-daman and diu,2022-09-01,57.0
-daman and diu,2022-10-01,56.0
-daman and diu,2022-11-01,60.0
-daman and diu,2022-12-01,21.0
-daman and diu,2023-01-01,25.0
-daman and diu,2023-02-01,26.0
-daman and diu,2023-03-01,35.0
-daman and diu,2023-04-01,20.0
-daman and diu,2023-05-01,20.0
-daman and diu,2023-06-01,33.0
-daman and diu,2023-07-01,28.0
-daman and diu,2023-08-01,27.0
-daman and diu,2023-09-01,23.0
-daman and diu,2023-10-01,59.0
-daman and diu,2023-11-01,36.0
-daman and diu,2023-12-01,46.0
-daman and diu,2024-01-01,29.0
-daman and diu,2024-02-01,39.0
-daman and diu,2024-03-01,51.0
-daman and diu,2024-04-01,36.0
-daman and diu,2024-05-01,65.0
-daman and diu,2024-06-01,46.0
-daman and diu,2024-07-01,49.0
-daman and diu,2024-08-01,42.0
-daman and diu,2024-09-01,36.0
-daman and diu,2024-10-01,55.0
-daman and diu,2024-11-01,49.0
-daman and diu,2024-12-01,51.0
-daman and diu,2025-01-01,59.0
-daman and diu,2025-02-01,40.0
-daman and diu,2025-03-01,51.0
-daman and diu,2025-04-01,57.0
-daman and diu,2025-05-01,54.0
-daman and diu,2025-06-01,45.0
-daman and diu,2025-07-01,60.0
-daman and diu,2025-08-01,39.0
-daman and diu,2025-09-01,38.0
-daman and diu,2025-10-01,34.0
-daman and diu,2025-11-01,32.0
-daman and diu,2025-12-01,39.0
-daman and diu,2026-01-01,38.0
-daman and diu,2026-02-01,43.0
-daman and diu,2026-03-01,44.0
-daman and diu,2026-04-01,49.0
-daman and diu,2026-05-01,34.0
-daman and diu,2026-06-01,38.0
-daman and diu,2026-07-01,47.0
 delhi,2018-07-01,3080492.0
 delhi,2018-08-01,3599140.0
 delhi,2018-09-01,3700947.0
@@ -889,10 +698,10 @@ delhi,2019-11-01,3828511.0
 delhi,2019-12-01,3659621.0
 delhi,2020-01-01,3871837.0
 delhi,2020-02-01,3913739.0
-delhi,2020-03-01,2623513.0
-delhi,2020-04-01,416624.0
-delhi,2020-05-01,1179094.0
-delhi,2020-06-01,2373872.0
+delhi,2020-03-01,3724687.0
+delhi,2020-04-01,3535635.0
+delhi,2020-05-01,3346583.0
+delhi,2020-06-01,3157531.0
 delhi,2020-07-01,2968479.0
 delhi,2020-08-01,3034302.0
 delhi,2020-09-01,3697927.0
@@ -949,6 +758,7 @@ delhi,2024-11-01,7080400.0
 delhi,2024-12-01,7934314.0
 delhi,2025-01-01,8570743.0
 delhi,2025-02-01,8136454.0
+delhi,2025-03-01,9223921.0
 delhi,2025-04-01,8689870.0
 delhi,2025-05-01,8540267.0
 delhi,2025-06-01,8300118.0
@@ -965,6 +775,103 @@ delhi,2026-04-01,8728335.0
 delhi,2026-05-01,8734092.0
 delhi,2026-06-01,8216664.0
 delhi,2026-07-01,8579293.0
+dnh and dd,2018-07-01,612860.0
+dnh and dd,2018-08-01,737660.0
+dnh and dd,2018-09-01,676050.0
+dnh and dd,2018-10-01,693464.0
+dnh and dd,2018-11-01,581496.0
+dnh and dd,2018-12-01,732397.0
+dnh and dd,2019-01-01,741491.0
+dnh and dd,2019-02-01,702802.0
+dnh and dd,2019-03-01,733979.0
+dnh and dd,2019-04-01,702768.0
+dnh and dd,2019-05-01,698391.0
+dnh and dd,2019-06-01,677739.0
+dnh and dd,2019-07-01,741455.0
+dnh and dd,2019-08-01,704724.0
+dnh and dd,2019-09-01,688876.0
+dnh and dd,2019-10-01,652409.0
+dnh and dd,2019-11-01,709025.0
+dnh and dd,2019-12-01,759963.0
+dnh and dd,2020-01-01,767785.0
+dnh and dd,2020-02-01,738232.0
+dnh and dd,2020-03-01,693784.0
+dnh and dd,2020-04-01,649336.0
+dnh and dd,2020-05-01,604888.0
+dnh and dd,2020-06-01,560440.0
+dnh and dd,2020-07-01,515992.0
+dnh and dd,2020-08-01,531191.0
+dnh and dd,2020-09-01,656411.0
+dnh and dd,2020-10-01,720217.0
+dnh and dd,2020-11-01,645112.0
+dnh and dd,2020-12-01,749562.0
+dnh and dd,2021-01-01,748951.0
+dnh and dd,2021-02-01,724622.0
+dnh and dd,2021-03-01,756055.0
+dnh and dd,2021-04-01,598216.0
+dnh and dd,2021-05-01,497044.0
+dnh and dd,2021-06-01,583173.0
+dnh and dd,2021-07-01,679173.0
+dnh and dd,2021-08-01,730547.0
+dnh and dd,2021-09-01,729242.0
+dnh and dd,2021-10-01,17438.0
+dnh and dd,2021-11-01,620090.0
+dnh and dd,2021-12-01,774004.0
+dnh and dd,2022-01-01,755802.0
+dnh and dd,2022-02-01,749012.0
+dnh and dd,2022-03-01,786161.0
+dnh and dd,2022-04-01,720640.0
+dnh and dd,2022-05-01,740145.0
+dnh and dd,2022-06-01,750420.0
+dnh and dd,2022-07-01,739668.0
+dnh and dd,2022-08-01,769656.0
+dnh and dd,2022-09-01,792371.0
+dnh and dd,2022-10-01,701413.0
+dnh and dd,2022-11-01,758354.0
+dnh and dd,2022-12-01,817244.0
+dnh and dd,2023-01-01,794587.0
+dnh and dd,2023-02-01,740757.0
+dnh and dd,2023-03-01,822473.0
+dnh and dd,2023-04-01,731779.0
+dnh and dd,2023-05-01,766303.0
+dnh and dd,2023-06-01,771738.0
+dnh and dd,2023-07-01,806214.0
+dnh and dd,2023-08-01,817720.0
+dnh and dd,2023-09-01,799205.0
+dnh and dd,2023-10-01,813419.0
+dnh and dd,2023-11-01,692202.0
+dnh and dd,2023-12-01,826992.0
+dnh and dd,2024-01-01,809400.0
+dnh and dd,2024-02-01,801940.0
+dnh and dd,2024-03-01,830393.0
+dnh and dd,2024-04-01,778689.0
+dnh and dd,2024-05-01,827015.0
+dnh and dd,2024-06-01,823172.0
+dnh and dd,2024-07-01,830370.0
+dnh and dd,2024-08-01,829855.0
+dnh and dd,2024-09-01,852437.0
+dnh and dd,2024-10-01,881487.0
+dnh and dd,2024-11-01,763417.0
+dnh and dd,2024-12-01,879131.0
+dnh and dd,2025-01-01,897806.0
+dnh and dd,2025-02-01,802718.0
+dnh and dd,2025-03-01,866043.0
+dnh and dd,2025-04-01,811513.0
+dnh and dd,2025-05-01,838420.0
+dnh and dd,2025-06-01,832971.0
+dnh and dd,2025-07-01,908789.0
+dnh and dd,2025-08-01,862559.0
+dnh and dd,2025-09-01,880456.0
+dnh and dd,2025-10-01,775622.0
+dnh and dd,2025-11-01,836368.0
+dnh and dd,2025-12-01,903468.0
+dnh and dd,2026-01-01,886657.0
+dnh and dd,2026-02-01,843475.0
+dnh and dd,2026-03-01,858785.0
+dnh and dd,2026-04-01,739149.0
+dnh and dd,2026-05-01,786646.0
+dnh and dd,2026-06-01,840231.0
+dnh and dd,2026-07-01,838266.0
 goa,2018-07-01,193936.0
 goa,2018-08-01,231955.0
 goa,2018-09-01,205805.0
@@ -985,10 +892,10 @@ goa,2019-11-01,227329.0
 goa,2019-12-01,226457.0
 goa,2020-01-01,237847.0
 goa,2020-02-01,229763.0
-goa,2020-03-01,155436.0
-goa,2020-04-01,46463.0
-goa,2020-05-01,138623.0
-goa,2020-06-01,170639.0
+goa,2020-03-01,219920.8
+goa,2020-04-01,210078.6
+goa,2020-05-01,200236.4
+goa,2020-06-01,190394.2
 goa,2020-07-01,180552.0
 goa,2020-08-01,175831.0
 goa,2020-09-01,209275.0
@@ -1082,10 +989,10 @@ gujarat,2019-11-01,7645001.0
 gujarat,2019-12-01,8677755.0
 gujarat,2020-01-01,8996118.0
 gujarat,2020-02-01,8932668.0
-gujarat,2020-03-01,6112802.0
-gujarat,2020-04-01,959997.0
-gujarat,2020-05-01,2741300.0
-gujarat,2020-06-01,5561041.0
+gujarat,2020-03-01,8474407.2
+gujarat,2020-04-01,8016146.4
+gujarat,2020-05-01,7557885.6
+gujarat,2020-06-01,7099624.8
 gujarat,2020-07-01,6641364.0
 gujarat,2020-08-01,6558424.0
 gujarat,2020-09-01,8275198.0
@@ -1179,10 +1086,10 @@ haryana,2019-11-01,6256806.0
 haryana,2019-12-01,6398774.0
 haryana,2020-01-01,6758803.0
 haryana,2020-02-01,6592207.0
-haryana,2020-03-01,4586456.0
-haryana,2020-04-01,588799.0
-haryana,2020-05-01,2189778.0
-haryana,2020-06-01,4679486.0
+haryana,2020-03-01,6476797.2
+haryana,2020-04-01,6361387.4
+haryana,2020-05-01,6245977.6
+haryana,2020-06-01,6130567.8
 haryana,2020-07-01,6015158.0
 haryana,2020-08-01,6178602.0
 haryana,2020-09-01,7194197.0
@@ -1239,6 +1146,7 @@ haryana,2024-11-01,14172568.0
 haryana,2024-12-01,15884856.0
 haryana,2025-01-01,17023397.0
 haryana,2025-02-01,16080173.0
+haryana,2025-03-01,17848306.0
 haryana,2025-04-01,17553653.0
 haryana,2025-05-01,18268965.0
 haryana,2025-06-01,17622173.0
@@ -1275,10 +1183,10 @@ himachal pradesh,2019-11-01,775332.0
 himachal pradesh,2019-12-01,745835.0
 himachal pradesh,2020-01-01,723408.0
 himachal pradesh,2020-02-01,736271.0
-himachal pradesh,2020-03-01,527504.0
-himachal pradesh,2020-04-01,151067.0
-himachal pradesh,2020-05-01,470901.0
-himachal pradesh,2020-06-01,662522.0
+himachal pradesh,2020-03-01,737715.2
+himachal pradesh,2020-04-01,739159.4
+himachal pradesh,2020-05-01,740603.6
+himachal pradesh,2020-06-01,742047.8
 himachal pradesh,2020-07-01,743492.0
 himachal pradesh,2020-08-01,737251.0
 himachal pradesh,2020-09-01,836089.0
@@ -1335,6 +1243,7 @@ himachal pradesh,2024-11-01,1022286.0
 himachal pradesh,2024-12-01,1066556.0
 himachal pradesh,2025-01-01,1095617.0
 himachal pradesh,2025-02-01,1002933.0
+himachal pradesh,2025-03-01,1140390.0
 himachal pradesh,2025-04-01,1124379.0
 himachal pradesh,2025-05-01,1198239.0
 himachal pradesh,2025-06-01,1158730.0
@@ -1371,10 +1280,10 @@ jammu and kashmir,2019-11-01,301047.0
 jammu and kashmir,2019-12-01,264641.0
 jammu and kashmir,2020-01-01,261180.0
 jammu and kashmir,2020-02-01,324911.0
-jammu and kashmir,2020-03-01,242663.0
-jammu and kashmir,2020-04-01,62134.0
-jammu and kashmir,2020-05-01,186376.0
-jammu and kashmir,2020-06-01,342473.0
+jammu and kashmir,2020-03-01,334091.6
+jammu and kashmir,2020-04-01,343272.2
+jammu and kashmir,2020-05-01,352452.8
+jammu and kashmir,2020-06-01,361633.4
 jammu and kashmir,2020-07-01,370814.0
 jammu and kashmir,2020-08-01,328439.0
 jammu and kashmir,2020-09-01,410911.0
@@ -1431,6 +1340,7 @@ jammu and kashmir,2024-11-01,602402.0
 jammu and kashmir,2024-12-01,587325.0
 jammu and kashmir,2025-01-01,577291.0
 jammu and kashmir,2025-02-01,589669.0
+jammu and kashmir,2025-03-01,705816.0
 jammu and kashmir,2025-04-01,681004.0
 jammu and kashmir,2025-05-01,685476.0
 jammu and kashmir,2025-06-01,664530.0
@@ -1467,10 +1377,10 @@ jharkhand,2019-11-01,841058.0
 jharkhand,2019-12-01,894428.0
 jharkhand,2020-01-01,946729.0
 jharkhand,2020-02-01,932467.0
-jharkhand,2020-03-01,640816.0
-jharkhand,2020-04-01,162451.0
-jharkhand,2020-05-01,414240.0
-jharkhand,2020-06-01,719413.0
+jharkhand,2020-03-01,905838.4
+jharkhand,2020-04-01,879209.8
+jharkhand,2020-05-01,852581.2
+jharkhand,2020-06-01,825952.6
 jharkhand,2020-07-01,799324.0
 jharkhand,2020-08-01,779355.0
 jharkhand,2020-09-01,919255.0
@@ -1564,10 +1474,10 @@ karnataka,2019-11-01,5763144.0
 karnataka,2019-12-01,6165450.0
 karnataka,2020-01-01,6334016.0
 karnataka,2020-02-01,6301890.0
-karnataka,2020-03-01,4702773.0
-karnataka,2020-04-01,918244.0
-karnataka,2020-05-01,3154445.0
-karnataka,2020-06-01,5072440.0
+karnataka,2020-03-01,6069516.2
+karnataka,2020-04-01,5837142.4
+karnataka,2020-05-01,5604768.6
+karnataka,2020-06-01,5372394.8
 karnataka,2020-07-01,5140021.0
 karnataka,2020-08-01,5567398.0
 karnataka,2020-09-01,6478355.0
@@ -1661,10 +1571,10 @@ kerala,2019-11-01,1898090.0
 kerala,2019-12-01,2025035.0
 kerala,2020-01-01,2055132.0
 kerala,2020-02-01,1949269.0
-kerala,2020-03-01,1441951.0
-kerala,2020-04-01,335128.0
-kerala,2020-05-01,1151175.0
-kerala,2020-06-01,1599120.0
+kerala,2020-03-01,1872280.8
+kerala,2020-04-01,1795292.6
+kerala,2020-05-01,1718304.4
+kerala,2020-06-01,1641316.2
 kerala,2020-07-01,1564328.0
 kerala,2020-08-01,1697133.0
 kerala,2020-09-01,1766295.0
@@ -1740,10 +1650,10 @@ kerala,2026-06-01,4086610.0
 kerala,2026-07-01,4554792.0
 ladakh,2020-01-01,141.0
 ladakh,2020-02-01,319.0
-ladakh,2020-03-01,318.0
-ladakh,2020-04-01,348.0
-ladakh,2020-05-01,2924.0
-ladakh,2020-06-01,5626.0
+ladakh,2020-03-01,1853.2
+ladakh,2020-04-01,3387.4
+ladakh,2020-05-01,4921.6
+ladakh,2020-06-01,6455.8
 ladakh,2020-07-01,7990.0
 ladakh,2020-08-01,7598.0
 ladakh,2020-09-01,11627.0
@@ -1837,10 +1747,10 @@ lakshadweep,2019-11-01,388.0
 lakshadweep,2019-12-01,374.0
 lakshadweep,2020-01-01,480.0
 lakshadweep,2020-02-01,444.0
-lakshadweep,2020-03-01,354.0
-lakshadweep,2020-04-01,108.0
-lakshadweep,2020-05-01,295.0
-lakshadweep,2020-06-01,269.0
+lakshadweep,2020-03-01,435.2
+lakshadweep,2020-04-01,426.4
+lakshadweep,2020-05-01,417.6
+lakshadweep,2020-06-01,408.8
 lakshadweep,2020-07-01,400.0
 lakshadweep,2020-08-01,205.0
 lakshadweep,2020-09-01,480.0
@@ -1934,10 +1844,10 @@ madhya pradesh,2019-11-01,1512513.0
 madhya pradesh,2019-12-01,1561030.0
 madhya pradesh,2020-01-01,1633779.0
 madhya pradesh,2020-02-01,1641577.0
-madhya pradesh,2020-03-01,1119921.0
-madhya pradesh,2020-04-01,199792.0
-madhya pradesh,2020-05-01,698499.0
-madhya pradesh,2020-06-01,1268064.0
+madhya pradesh,2020-03-01,1601473.0
+madhya pradesh,2020-04-01,1561369.0
+madhya pradesh,2020-05-01,1521265.0
+madhya pradesh,2020-06-01,1481161.0
 madhya pradesh,2020-07-01,1441057.0
 madhya pradesh,2020-08-01,1336468.0
 madhya pradesh,2020-09-01,1571289.0
@@ -2031,10 +1941,10 @@ maharashtra,2019-11-01,10009552.0
 maharashtra,2019-12-01,10670192.0
 maharashtra,2020-01-01,11168202.0
 maharashtra,2020-02-01,10994369.0
-maharashtra,2020-03-01,7708273.0
-maharashtra,2020-04-01,1153253.0
-maharashtra,2020-05-01,3591708.0
-maharashtra,2020-06-01,6996555.0
+maharashtra,2020-03-01,10388094.6
+maharashtra,2020-04-01,9781820.2
+maharashtra,2020-05-01,9175545.8
+maharashtra,2020-06-01,8569271.4
 maharashtra,2020-07-01,7962997.0
 maharashtra,2020-08-01,8786349.0
 maharashtra,2020-09-01,10315594.0
@@ -2128,10 +2038,10 @@ manipur,2019-11-01,41368.0
 manipur,2019-12-01,36425.0
 manipur,2020-01-01,38205.0
 manipur,2020-02-01,43636.0
-manipur,2020-03-01,29267.0
-manipur,2020-04-01,6103.0
-manipur,2020-05-01,28963.0
-manipur,2020-06-01,35363.0
+manipur,2020-03-01,42575.4
+manipur,2020-04-01,41514.8
+manipur,2020-05-01,40454.2
+manipur,2020-06-01,39393.6
 manipur,2020-07-01,38333.0
 manipur,2020-08-01,33439.0
 manipur,2020-09-01,45162.0
@@ -2188,6 +2098,7 @@ manipur,2024-11-01,38965.0
 manipur,2024-12-01,50102.0
 manipur,2025-01-01,51798.0
 manipur,2025-02-01,47072.0
+manipur,2025-03-01,51938.0
 manipur,2025-04-01,50985.0
 manipur,2025-05-01,51349.0
 manipur,2025-06-01,41923.0
@@ -2224,10 +2135,10 @@ meghalaya,2019-11-01,79961.0
 meghalaya,2019-12-01,71808.0
 meghalaya,2020-01-01,83682.0
 meghalaya,2020-02-01,84936.0
-meghalaya,2020-03-01,60069.0
-meghalaya,2020-04-01,9630.0
-meghalaya,2020-05-01,50922.0
-meghalaya,2020-06-01,62341.0
+meghalaya,2020-03-01,78792.6
+meghalaya,2020-04-01,72649.2
+meghalaya,2020-05-01,66505.8
+meghalaya,2020-06-01,60362.4
 meghalaya,2020-07-01,54219.0
 meghalaya,2020-08-01,67547.0
 meghalaya,2020-09-01,71640.0
@@ -2321,10 +2232,10 @@ mizoram,2019-11-01,28082.0
 mizoram,2019-12-01,26195.0
 mizoram,2020-01-01,25965.0
 mizoram,2020-02-01,28635.0
-mizoram,2020-03-01,19829.0
-mizoram,2020-04-01,3844.0
-mizoram,2020-05-01,27343.0
-mizoram,2020-06-01,21227.0
+mizoram,2020-03-01,27871.0
+mizoram,2020-04-01,27107.0
+mizoram,2020-05-01,26343.0
+mizoram,2020-06-01,25579.0
 mizoram,2020-07-01,24815.0
 mizoram,2020-08-01,23148.0
 mizoram,2020-09-01,27931.0
@@ -2418,10 +2329,10 @@ nagaland,2019-11-01,26745.0
 nagaland,2019-12-01,22875.0
 nagaland,2020-01-01,26442.0
 nagaland,2020-02-01,28866.0
-nagaland,2020-03-01,19260.0
-nagaland,2020-04-01,4073.0
-nagaland,2020-05-01,21277.0
-nagaland,2020-06-01,20492.0
+nagaland,2020-03-01,27657.6
+nagaland,2020-04-01,26449.2
+nagaland,2020-05-01,25240.8
+nagaland,2020-06-01,24032.4
 nagaland,2020-07-01,22824.0
 nagaland,2020-08-01,22846.0
 nagaland,2020-09-01,30913.0
@@ -2478,6 +2389,7 @@ nagaland,2024-11-01,45311.0
 nagaland,2024-12-01,44118.0
 nagaland,2025-01-01,42409.0
 nagaland,2025-02-01,42910.0
+nagaland,2025-03-01,47555.0
 nagaland,2025-04-01,45012.0
 nagaland,2025-05-01,44755.0
 nagaland,2025-06-01,43217.0
@@ -2514,10 +2426,10 @@ odisha,2019-11-01,1195013.0
 odisha,2019-12-01,1287077.0
 odisha,2020-01-01,1326127.0
 odisha,2020-02-01,1304585.0
-odisha,2020-03-01,971310.0
-odisha,2020-04-01,354280.0
-odisha,2020-05-01,849368.0
-odisha,2020-06-01,1106039.0
+odisha,2020-03-01,1267215.6
+odisha,2020-04-01,1229846.2
+odisha,2020-05-01,1192476.8
+odisha,2020-06-01,1155107.4
 odisha,2020-07-01,1117738.0
 odisha,2020-08-01,1078577.0
 odisha,2020-09-01,1249290.0
@@ -2591,99 +2503,6 @@ odisha,2026-04-01,2958005.0
 odisha,2026-05-01,3062292.0
 odisha,2026-06-01,2937135.0
 odisha,2026-07-01,2837572.0
-other territory,2018-11-01,12497.0
-other territory,2018-12-01,10111.0
-other territory,2019-01-01,10210.0
-other territory,2019-02-01,10106.0
-other territory,2019-03-01,10500.0
-other territory,2019-04-01,10273.0
-other territory,2019-05-01,10152.0
-other territory,2019-06-01,9869.0
-other territory,2019-07-01,11234.0
-other territory,2019-08-01,10298.0
-other territory,2019-09-01,9848.0
-other territory,2019-10-01,9727.0
-other territory,2019-11-01,10874.0
-other territory,2019-12-01,10726.0
-other territory,2020-01-01,10547.0
-other territory,2020-02-01,12191.0
-other territory,2020-03-01,9095.0
-other territory,2020-04-01,3019.0
-other territory,2020-05-01,6473.0
-other territory,2020-06-01,8826.0
-other territory,2020-07-01,12196.0
-other territory,2020-08-01,11823.0
-other territory,2020-09-01,13434.0
-other territory,2020-10-01,12883.0
-other territory,2020-11-01,12102.0
-other territory,2020-12-01,14878.0
-other territory,2021-01-01,12946.0
-other territory,2021-02-01,13534.0
-other territory,2021-03-01,15148.0
-other territory,2021-04-01,12256.0
-other territory,2021-05-01,11572.0
-other territory,2021-06-01,11772.0
-other territory,2021-07-01,13028.0
-other territory,2021-08-01,12893.0
-other territory,2021-09-01,13147.0
-other territory,2021-10-01,5335.0
-other territory,2021-11-01,11119.0
-other territory,2021-12-01,16769.0
-other territory,2022-01-01,13648.0
-other territory,2022-02-01,12502.0
-other territory,2022-03-01,13274.0
-other territory,2022-04-01,12063.0
-other territory,2022-05-01,12616.0
-other territory,2022-06-01,13121.0
-other territory,2022-07-01,12963.0
-other territory,2022-08-01,12382.0
-other territory,2022-09-01,12578.0
-other territory,2022-10-01,12310.0
-other territory,2022-11-01,13591.0
-other territory,2022-12-01,14509.0
-other territory,2023-01-01,14462.0
-other territory,2023-02-01,14691.0
-other territory,2023-03-01,14406.0
-other territory,2023-04-01,15734.0
-other territory,2023-05-01,16850.0
-other territory,2023-06-01,15369.0
-other territory,2023-07-01,16227.0
-other territory,2023-08-01,18428.0
-other territory,2023-09-01,18911.0
-other territory,2023-10-01,17629.0
-other territory,2023-11-01,16601.0
-other territory,2023-12-01,18299.0
-other territory,2024-01-01,18090.0
-other territory,2024-02-01,17488.0
-other territory,2024-03-01,18891.0
-other territory,2024-04-01,17724.0
-other territory,2024-05-01,17293.0
-other territory,2024-06-01,16206.0
-other territory,2024-07-01,18644.0
-other territory,2024-08-01,15743.0
-other territory,2024-09-01,17267.0
-other territory,2024-10-01,18195.0
-other territory,2024-11-01,17673.0
-other territory,2024-12-01,20464.0
-other territory,2025-01-01,19187.0
-other territory,2025-02-01,19184.0
-other territory,2025-03-01,20249.0
-other territory,2025-04-01,18108.0
-other territory,2025-05-01,18659.0
-other territory,2025-06-01,16784.0
-other territory,2025-07-01,17174.0
-other territory,2025-08-01,15794.0
-other territory,2025-09-01,15232.0
-other territory,2025-10-01,13871.0
-other territory,2025-11-01,16993.0
-other territory,2025-12-01,17943.0
-other territory,2026-01-01,18710.0
-other territory,2026-02-01,16545.0
-other territory,2026-03-01,15973.0
-other territory,2026-04-01,15882.0
-other territory,2026-05-01,17517.0
-other territory,2026-06-01,16779.0
-other territory,2026-07-01,17368.0
 puducherry,2018-07-01,205395.0
 puducherry,2018-08-01,222227.0
 puducherry,2018-09-01,222108.0
@@ -2704,10 +2523,10 @@ puducherry,2019-11-01,218298.0
 puducherry,2019-12-01,229694.0
 puducherry,2020-01-01,216872.0
 puducherry,2020-02-01,230272.0
-puducherry,2020-03-01,163671.0
-puducherry,2020-04-01,31283.0
-puducherry,2020-05-01,110411.0
-puducherry,2020-06-01,160079.0
+puducherry,2020-03-01,222366.0
+puducherry,2020-04-01,214460.0
+puducherry,2020-05-01,206554.0
+puducherry,2020-06-01,198648.0
 puducherry,2020-07-01,190742.0
 puducherry,2020-08-01,192340.0
 puducherry,2020-09-01,222571.0
@@ -2801,10 +2620,10 @@ punjab,2019-11-01,3118959.0
 punjab,2019-12-01,2997617.0
 punjab,2020-01-01,2916193.0
 punjab,2020-02-01,3041723.0
-punjab,2020-03-01,2132347.0
-punjab,2020-04-01,396071.0
-punjab,2020-05-01,1550577.0
-punjab,2020-06-01,2589629.0
+punjab,2020-03-01,3027111.2
+punjab,2020-04-01,3012499.4
+punjab,2020-05-01,2997887.6
+punjab,2020-06-01,2983275.8
 punjab,2020-07-01,2968664.0
 punjab,2020-08-01,2920801.0
 punjab,2020-09-01,3382596.0
@@ -2861,6 +2680,7 @@ punjab,2024-11-01,4958506.0
 punjab,2024-12-01,5077650.0
 punjab,2025-01-01,5285669.0
 punjab,2025-02-01,4978554.0
+punjab,2025-03-01,5665808.0
 punjab,2025-04-01,5467440.0
 punjab,2025-05-01,5475317.0
 punjab,2025-06-01,5309261.0
@@ -2897,10 +2717,10 @@ rajasthan,2019-11-01,3739911.0
 rajasthan,2019-12-01,3865302.0
 rajasthan,2020-01-01,3859736.0
 rajasthan,2020-02-01,3962142.0
-rajasthan,2020-03-01,2613361.0
-rajasthan,2020-04-01,438586.0
-rajasthan,2020-05-01,1642428.0
-rajasthan,2020-06-01,3168159.0
+rajasthan,2020-03-01,3894042.4
+rajasthan,2020-04-01,3825942.8
+rajasthan,2020-05-01,3757843.2
+rajasthan,2020-06-01,3689743.6
 rajasthan,2020-07-01,3621644.0
 rajasthan,2020-08-01,3408758.0
 rajasthan,2020-09-01,3899768.0
@@ -2957,6 +2777,7 @@ rajasthan,2024-11-01,5096898.0
 rajasthan,2024-12-01,5575043.0
 rajasthan,2025-01-01,6060908.0
 rajasthan,2025-02-01,5715941.0
+rajasthan,2025-03-01,6196980.0
 rajasthan,2025-04-01,6129743.0
 rajasthan,2025-05-01,6170777.0
 rajasthan,2025-06-01,5790450.0
@@ -2993,10 +2814,10 @@ sikkim,2019-11-01,41601.0
 sikkim,2019-12-01,40198.0
 sikkim,2020-01-01,41536.0
 sikkim,2020-02-01,40752.0
-sikkim,2020-03-01,29125.0
-sikkim,2020-04-01,14934.0
-sikkim,2020-05-01,29758.0
-sikkim,2020-06-01,30307.0
+sikkim,2020-03-01,37027.8
+sikkim,2020-04-01,33303.6
+sikkim,2020-05-01,29579.4
+sikkim,2020-06-01,25855.2
 sikkim,2020-07-01,22131.0
 sikkim,2020-08-01,23601.0
 sikkim,2020-09-01,30411.0
@@ -3053,6 +2874,7 @@ sikkim,2024-11-01,60215.0
 sikkim,2024-12-01,73810.0
 sikkim,2025-01-01,87525.0
 sikkim,2025-02-01,78364.0
+sikkim,2025-03-01,90938.0
 sikkim,2025-04-01,90511.0
 sikkim,2025-05-01,91743.0
 sikkim,2025-06-01,80981.0
@@ -3089,10 +2911,10 @@ tamil nadu,2019-11-01,6310682.0
 tamil nadu,2019-12-01,6530393.0
 tamil nadu,2020-01-01,6344525.0
 tamil nadu,2020-02-01,6741262.0
-tamil nadu,2020-03-01,4984464.0
-tamil nadu,2020-04-01,643565.0
-tamil nadu,2020-05-01,2832064.0
-tamil nadu,2020-06-01,4611593.0
+tamil nadu,2020-03-01,6515243.2
+tamil nadu,2020-04-01,6289224.4
+tamil nadu,2020-05-01,6063205.6
+tamil nadu,2020-06-01,5837186.8
 tamil nadu,2020-07-01,5611168.0
 tamil nadu,2020-08-01,6035252.0
 tamil nadu,2020-09-01,6940263.0
@@ -3186,10 +3008,10 @@ telangana,2019-11-01,2582307.0
 telangana,2019-12-01,2937404.0
 telangana,2020-01-01,3006673.0
 telangana,2020-02-01,3053204.0
-telangana,2020-03-01,2317066.0
-telangana,2020-04-01,691876.0
-telangana,2020-05-01,1573108.0
-telangana,2020-06-01,2548749.0
+telangana,2020-03-01,3000100.2
+telangana,2020-04-01,2946996.4
+telangana,2020-05-01,2893892.6
+telangana,2020-06-01,2840788.8
 telangana,2020-07-01,2787685.0
 telangana,2020-08-01,2734881.0
 telangana,2020-09-01,3226086.0
@@ -3283,10 +3105,10 @@ tripura,2019-11-01,60765.0
 tripura,2019-12-01,53327.0
 tripura,2020-01-01,55994.0
 tripura,2020-02-01,61419.0
-tripura,2020-03-01,46064.0
-tripura,2020-04-01,12084.0
-tripura,2020-05-01,39382.0
-tripura,2020-06-01,54106.0
+tripura,2020-03-01,58933.4
+tripura,2020-04-01,56447.8
+tripura,2020-05-01,53962.2
+tripura,2020-06-01,51476.6
 tripura,2020-07-01,48991.0
 tripura,2020-08-01,59522.0
 tripura,2020-09-01,61397.0
@@ -3380,10 +3202,10 @@ uttar pradesh,2019-11-01,6332104.0
 uttar pradesh,2019-12-01,6133478.0
 uttar pradesh,2020-01-01,6565008.0
 uttar pradesh,2020-02-01,6662435.0
-uttar pradesh,2020-03-01,4508775.0
-uttar pradesh,2020-04-01,1024227.0
-uttar pradesh,2020-05-01,2852827.0
-uttar pradesh,2020-06-01,5254581.0
+uttar pradesh,2020-03-01,6460833.2
+uttar pradesh,2020-04-01,6259231.4
+uttar pradesh,2020-05-01,6057629.6
+uttar pradesh,2020-06-01,5856027.8
 uttar pradesh,2020-07-01,5654426.0
 uttar pradesh,2020-08-01,5513861.0
 uttar pradesh,2020-09-01,6466638.0
@@ -3440,6 +3262,7 @@ uttar pradesh,2024-11-01,12165846.0
 uttar pradesh,2024-12-01,13352816.0
 uttar pradesh,2025-01-01,14436692.0
 uttar pradesh,2025-02-01,13982778.0
+uttar pradesh,2025-03-01,15956815.0
 uttar pradesh,2025-04-01,15403322.0
 uttar pradesh,2025-05-01,15542093.0
 uttar pradesh,2025-06-01,14880551.0
@@ -3476,10 +3299,10 @@ uttarakhand,2019-11-01,1259211.0
 uttarakhand,2019-12-01,1208181.0
 uttarakhand,2020-01-01,1267427.0
 uttarakhand,2020-02-01,1240594.0
-uttarakhand,2020-03-01,797194.0
-uttarakhand,2020-04-01,193094.0
-uttarakhand,2020-05-01,570482.0
-uttarakhand,2020-06-01,968628.0
+uttarakhand,2020-03-01,1226317.2
+uttarakhand,2020-04-01,1212040.4
+uttarakhand,2020-05-01,1197763.6
+uttarakhand,2020-06-01,1183486.8
 uttarakhand,2020-07-01,1169210.0
 uttarakhand,2020-08-01,1179963.0
 uttarakhand,2020-09-01,1378380.0
@@ -3536,6 +3359,7 @@ uttarakhand,2024-11-01,1862753.0
 uttarakhand,2024-12-01,1967269.0
 uttarakhand,2025-01-01,2096206.0
 uttarakhand,2025-02-01,2018297.0
+uttarakhand,2025-03-01,2282611.0
 uttarakhand,2025-04-01,2216853.0
 uttarakhand,2025-05-01,2347695.0
 uttarakhand,2025-06-01,2196358.0
@@ -3572,10 +3396,10 @@ west bengal,2019-11-01,2848695.0
 west bengal,2019-12-01,2864882.0
 west bengal,2020-01-01,2994025.0
 west bengal,2020-02-01,3124846.0
-west bengal,2020-03-01,2188027.0
-west bengal,2020-04-01,457674.0
-west bengal,2020-05-01,1088644.0
-west bengal,2020-06-01,2411420.0
+west bengal,2020-03-01,3029983.4
+west bengal,2020-04-01,2935120.8
+west bengal,2020-05-01,2840258.2
+west bengal,2020-06-01,2745395.6
 west bengal,2020-07-01,2650533.0
 west bengal,2020-08-01,2627027.0
 west bengal,2020-09-01,3183191.0
