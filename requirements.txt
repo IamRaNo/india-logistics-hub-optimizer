@@ -4,3 +4,4 @@ matplotlib
 seaborn
 statsforecast
 plotly
+plotli.express
