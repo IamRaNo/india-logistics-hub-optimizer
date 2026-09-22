@@ -74,3 +74,78 @@ select `state`,`date`,bill_volume, bill_amount,
 round(avg(bill_volume) over(partition by `state` order by `year`,`month` rows between 2 preceding and current row),2) as avg_bill_3m,
 round(avg(bill_amount) over(partition by `state` order by `year`,`month` rows between 2 preceding and current row),2) as avg_amount_3m
 from totaled;
+
+
+select * from gsdp limit 5;
+
+select * from bills limit 5;
+
+with temp as (
+select `state`, `year`,
+round((sum(intra_assets) + sum(inter_out_assets) +sum(inter_in_assets)),2)as total_assets
+from bills
+group by 1,2
+)
+select 
+ state,
+  sum(case when year = 2018 then total_assets end) as `2018-19`,
+  sum(case when year = 2019 then total_assets end) as `2019-20`,
+  sum(case when year = 2020 then total_assets end) as `2020-21`,
+  sum(case when year = 2021 then total_assets end) as `2021-22`,
+  sum(case when year = 2022 then total_assets end) as `2022-23`
+from temp
+where `state` not in ('daman and diu', 'dadra and nagar haveli','lakshadweep')
+group by state;
+
+select `state` from gsdp;
+
+update gsdp set state = 'andaman and nicobar' where state = 'andaman & nicobar islands';
+update gsdp set state = 'jammu and kashmir' where state = 'jammu & kashmir-ut';
+
+create view bill_growth as
+with bills_agg as(
+    select 
+ state,
+  sum(case when year = 2018 then total_assets end) as `2018-19`,
+  sum(case when year = 2019 then total_assets end) as `2019-20`,
+  sum(case when year = 2020 then total_assets end) as `2020-21`,
+  sum(case when year = 2021 then total_assets end) as `2021-22`,
+  sum(case when year = 2022 then total_assets end) as `2022-23`
+  from (
+    select `state`, `year`,
+    round((sum(intra_assets) + sum(inter_out_assets) +sum(inter_in_assets)),2)as total_assets
+    from bills
+    group by 1,2
+  ) temp
+  where `state` not in ('daman and diu', 'dadra and nagar haveli','lakshadweep')
+  group by state
+),
+bills_growth as(
+    select
+        `state`,
+        round((`2019-20` - `2018-19`) / `2018-19` * 100, 2) as `18/19-19/20`,
+        round((`2020-21` - `2019-20`) / `2019-20` * 100, 2) as `19/20-20/21`,
+        round((`2021-22` - `2020-21`) / `2020-21` * 100, 2) as `20/21-21/22`,
+        round((`2022-23` - `2021-22`) / `2021-22` * 100, 2) as `21/22-22/23`
+    from bills_agg
+)
+select * from bills_growth;
+
+
+
+select * from bills_growth;
+select * from gsdp;
+create view gsdp_growth as
+select
+    state,
+    round((`2019-20` - `2018-19`) / `2018-19` * 100, 2) as `18/19-19/20`,
+    round((`2020-21` - `2019-20`) / `2019-20` * 100, 2) as `19/20-20/21`,
+    round((`2021-22` - `2020-21`) / `2020-21` * 100, 2) as `20/21-21/22`,
+    round((`2022-23` - `2021-22`) / `2021-22` * 100, 2) as `21/22-22/23`
+from gsdp;
+
+
+select * from gsdp_growth;
+select * from bill_growth;
+
+
