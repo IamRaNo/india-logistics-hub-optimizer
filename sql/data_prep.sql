@@ -149,4 +149,11 @@ from gsdp;
 select * from gsdp_growth;
 select * from bill_growth;
 
-
+select
+    state,
+    year,
+    round(sum(intra_assets) + sum(inter_out_assets) + sum(inter_in_assets), 2) as total_assets
+from bills
+where state = 'himachal pradesh'
+group by state, year
+order by year;
