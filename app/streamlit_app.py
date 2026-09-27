@@ -1,8 +1,10 @@
 """India Logistics Hub Optimizer - Streamlit dashboard.
 
-This file currently holds one section: Demand Forecasting. Later sections
-(growth gap, clustering, hub optimisation, risk) will be added as more
-functions like render_demand_forecasting(), each called from here.
+Sections:
+- Demand Forecasting: per-state / India-wide SARIMA forecast, plus
+  Top Growth States (fastest-growing states by forecasted volume/amount)
+- Growth Gap Analysis: e-way bill growth vs GSDP growth, per-state trend
+  and a state-by-state comparison bar chart
 """
 
 from pathlib import Path
@@ -30,6 +32,12 @@ FORECAST_FILES = {
     "Amount": DATA_DIR / "amount_preds.csv",
 }
 GROWTH_FILE = DATA_DIR / "growth_summary.csv"
+
+# Growth Gap Analysis uses its own set of files/states — a separate dataset
+# from the demand-forecasting one above (different states included/excluded).
+GROWTH_BILL_FILE = DATA_DIR / "growth_bill.csv"
+GROWTH_GSDP_FILE = DATA_DIR / "growth_gsdp.csv"
+GROWTH_COMPARISON_FILE = DATA_DIR / "growth_comparison.csv"
 
 # A few state names need a friendlier label than a plain title-case would give.
 STATE_NAME_OVERRIDES = {
@@ -59,7 +67,7 @@ def format_value(value, metric):
 def load_csv(path, has_date_column=True):
     """Read one CSV. Cached so it only happens once per file, not every time
     the user changes a filter. The history/forecast files have a 'ds' date
-    column to parse; the growth summary file does not, so it can skip that."""
+    column to parse; growth-related files do not, so they can skip that."""
     if has_date_column:
         return pd.read_csv(path, parse_dates=["ds"])
     return pd.read_csv(path)
@@ -115,18 +123,12 @@ def filter_history_range(actual_df, history_range):
 
 
 # ---------------------------------------------------------------------------
-# The Demand Forecasting section
+# Demand Forecasting — Forecast sub-tab
 # ---------------------------------------------------------------------------
 
-def render_demand_forecasting():
-    """Draw the full Demand Forecasting section: sidebar controls, headline
-    numbers, chart, forecast table, and an optional growth-comparison tab."""
-
-    st.header("Demand Forecasting")
-    st.caption(
-        "Monthly demand outlook for India logistics planning, "
-        "based on GST E-Way Bill data."
-    )
+def render_forecast_tab():
+    """Sidebar controls, headline numbers, chart, and forecast table.
+    Lives inside the 'Forecast' sub-tab of Demand Forecasting."""
 
     # --- Load data, with a friendly error instead of a crash if it's missing ---
     try:
@@ -228,12 +230,16 @@ def render_demand_forecasting():
 
 
 # ---------------------------------------------------------------------------
-# Top Growth States (only shown if the file exists)
+# Demand Forecasting — Top Growth States sub-tab
 # ---------------------------------------------------------------------------
 
-def render_top_growth_states():
-    """Show which states are forecast to grow fastest, if the growth summary
-    file has been generated. Uses volume_growth and amount_growth columns."""
+def render_top_growth_tab():
+    """Which states are forecast to grow fastest. Lives inside the
+    'Top Growth States' sub-tab of Demand Forecasting."""
+
+    if not GROWTH_FILE.exists():
+        st.info("Growth summary data not available yet.")
+        return
 
     growth_df = load_csv(GROWTH_FILE, has_date_column=False)
     growth_df["state"] = growth_df["unique_id"].apply(format_state_name)
@@ -270,16 +276,163 @@ def render_top_growth_states():
 
 
 # ---------------------------------------------------------------------------
+# Demand Forecasting — top-level section (wraps the two sub-tabs above)
+# ---------------------------------------------------------------------------
+
+def render_demand_forecasting_section():
+    """Top-level Demand Forecasting section: one heading, two sub-tabs."""
+    st.header("Demand Forecasting")
+    st.caption(
+        "Monthly demand outlook based on GST E-Way Bill data, "
+        "and which states are forecast to grow fastest."
+    )
+
+    tab_forecast, tab_top_growth = st.tabs(["Forecast", "Top Growth States"])
+    with tab_forecast:
+        render_forecast_tab()
+    with tab_top_growth:
+        render_top_growth_tab()
+
+
+# ---------------------------------------------------------------------------
+# Growth Gap Analysis (only shown if the growth-gap files exist)
+# ---------------------------------------------------------------------------
+
+def load_growth_data():
+    """Load the growth-gap files: yearly bill/GSDP values (for the trend
+    chart) and the pre-computed CAGR comparison (for the bar chart)."""
+    bill_df = load_csv(GROWTH_BILL_FILE, has_date_column=False)
+    gsdp_df = load_csv(GROWTH_GSDP_FILE, has_date_column=False)
+    comparison_df = load_csv(GROWTH_COMPARISON_FILE, has_date_column=False)
+    return bill_df, gsdp_df, comparison_df
+
+
+def build_growth_location_options(bill_df):
+    """Build the state list for Growth Gap Analysis. This is a separate set
+    of states from the demand-forecasting data above (e.g. Ladakh and
+    'other territory' are excluded here but may exist in the forecast data)."""
+    state_ids = sorted(bill_df["state"].unique(), key=format_state_name)
+    return {format_state_name(uid): uid for uid in state_ids}
+
+
+def render_growth_gap_analysis():
+    """Draw the Growth Gap Analysis section: a per-state yearly trend of
+    e-way bill growth vs GSDP growth, and a bar chart summarising the CAGR
+    gap across all states."""
+
+    st.header("Growth Gap Analysis")
+    st.caption(
+        "Comparing e-way bill growth to GSDP growth, state by state, "
+        "to spot where logistics activity is lagging or outpacing the economy."
+    )
+
+    try:
+        bill_df, gsdp_df, comparison_df = load_growth_data()
+    except FileNotFoundError as error:
+        st.error(
+            "Could not find the growth comparison data files. Make sure "
+            "growth_bill.csv, growth_gsdp.csv, and growth_comparison.csv "
+            f"are inside the 'models' folder.\n\n{error}"
+        )
+        return
+
+    growth_location_options = build_growth_location_options(bill_df)
+
+    # A dedicated sidebar block for this section, separate from the
+    # forecasting controls above, using its own set of states.
+    with st.sidebar:
+        st.subheader("Growth gap controls")
+        growth_state_name = st.selectbox(
+            "State (for trend chart)",
+            list(growth_location_options.keys()),
+            key="growth_state",
+        )
+    growth_state_uid = growth_location_options[growth_state_name]
+
+    tab_trend, tab_bar = st.tabs(["Yearly Trend", "State Comparison"])
+    year_cols = ["20-21", "21-22", "22-23"]
+
+    # --- Tab 1: per-state line trend ---
+    with tab_trend:
+        bill_row = bill_df.loc[bill_df["state"] == growth_state_uid, year_cols].iloc[0]
+        gsdp_row = gsdp_df.loc[gsdp_df["state"] == growth_state_uid, year_cols].iloc[0]
+
+        fig = go.Figure()
+        fig.add_trace(go.Scatter(
+            x=year_cols, y=bill_row.values,
+            name="E-Way Bill Growth", mode="lines+markers",
+            line=dict(color="#4cc9f0", width=3), marker=dict(size=8),
+        ))
+        fig.add_trace(go.Scatter(
+            x=year_cols, y=gsdp_row.values,
+            name="GSDP Growth", mode="lines+markers",
+            line=dict(color="#f72585", width=3), marker=dict(size=8),
+        ))
+        fig.update_layout(
+            template="plotly_dark",
+            paper_bgcolor="#111827",
+            plot_bgcolor="#111827",
+            title=dict(
+                text=f"Bill vs GSDP Growth — {growth_state_name}",
+                x=0.5, xanchor="center", y=0.97, yanchor="top",
+            ),
+            xaxis_title="Year",
+            yaxis_title="Growth (%)",
+            hovermode="x unified",
+            height=430,
+            legend=dict(orientation="h", yanchor="bottom", y=1.15, x=0, xanchor="left"),
+            margin=dict(l=60, r=60, t=95, b=40),
+        )
+        st.plotly_chart(fig, use_container_width=True)
+
+    # --- Tab 2: state comparison bar chart ---
+    with tab_bar:
+        plot_df = comparison_df.copy()
+        plot_df["state_label"] = plot_df["state"].apply(format_state_name)
+        plot_df["color"] = plot_df["diff"].apply(lambda x: "#2ecc71" if x > 0 else "#e74c3c")
+
+        fig = go.Figure()
+        fig.add_trace(go.Bar(
+            x=plot_df["diff"], y=plot_df["state_label"],
+            orientation="h", marker_color=plot_df["color"],
+        ))
+        fig.add_vline(x=0, line_color="#94a3b8", line_width=1)
+        fig.update_layout(
+            template="plotly_dark",
+            paper_bgcolor="#111827",
+            plot_bgcolor="#111827",
+            title=dict(
+                text="Bill Growth vs GSDP Growth Gap by State",
+                x=0.5, xanchor="center", y=0.97, yanchor="top",
+            ),
+            xaxis_title="Growth Gap (Bill CAGR − GSDP CAGR)",
+            yaxis_title="",
+            height=850,
+            margin=dict(l=140, r=60, t=80, b=40),
+        )
+        st.plotly_chart(fig, use_container_width=True)
+
+        st.caption(
+            "Negative (red) = e-way bill growth lagging GSDP growth → "
+            "potential untapped logistics demand. Positive (green) = "
+            "logistics growth already outpacing the economy."
+        )
+
+
+# ---------------------------------------------------------------------------
 # App entry point
 # ---------------------------------------------------------------------------
 
 st.set_page_config(page_title="India Logistics Hub Optimizer", layout="wide")
 
-if GROWTH_FILE.exists():
-    tab_forecast, tab_growth = st.tabs(["Demand Forecast", "Top Growth States"])
-    with tab_forecast:
-        render_demand_forecasting()
-    with tab_growth:
-        render_top_growth_states()
-else:
-    render_demand_forecasting()
+SECTIONS = {"Demand Forecasting": render_demand_forecasting_section}
+
+if GROWTH_BILL_FILE.exists() and GROWTH_GSDP_FILE.exists() and GROWTH_COMPARISON_FILE.exists():
+    SECTIONS["Growth Gap Analysis"] = render_growth_gap_analysis
+
+with st.sidebar:
+    st.title("Navigation")
+    active_section = st.radio("Section", list(SECTIONS.keys()))
+    st.divider()
+
+SECTIONS[active_section]()
