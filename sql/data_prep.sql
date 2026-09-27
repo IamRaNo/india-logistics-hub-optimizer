@@ -155,3 +155,34 @@ from bills
 where state = 'himachal pradesh'
 group by state, year
 order by year;
+
+
+select * from population limit 5;
+select * from bills limit 5;
+
+create view pca_data as
+select 
+    state, 
+    year, 
+    sum(intra_bills+inter_out_bills+inter_in_bills) as volume,
+    round(sum(intra_assets+inter_out_assets+inter_in_assets),2) as amount
+from bills
+where year not in (2018,2026)
+group by 1,2;
+
+create view population_df as
+select state, 2019 as year, `2019`*1000 as population from population
+union all
+select state, 2020, `2020`*1000 from population
+union all
+select state, 2021, `2021`*1000 from population
+union all
+select state, 2022, `2022`*1000 from population
+union all
+select state, 2023, `2023`*1000 from population
+union all
+select state, 2024, `2024`*1000 from population
+union all
+select state, 2025, `2025`*1000 from population
+where state != 'india'
+order by state, year;
